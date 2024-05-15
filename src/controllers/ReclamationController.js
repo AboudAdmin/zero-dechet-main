@@ -1,6 +1,6 @@
 const Reclamation = require('../models/reclamation');
 
-// إنشاء استفسار جديد
+
 exports.createReclamation = async (req, res) => {
   try {
     const reclamation = new Reclamation(req.body);
